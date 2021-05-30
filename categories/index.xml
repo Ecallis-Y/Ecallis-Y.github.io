@@ -2,9 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mostella</title>
-    <link>https://ecallis-y.github.io/categories/</link>
+    <link>http://ecallis-y.github.io/categories/</link>
     <description>Recent content in Categories on Mostella</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ecallis-y.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 May 2021 22:28:44 +0800</lastBuildDate><atom:link href="http://ecallis-y.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习笔记</title>
+      <link>http://ecallis-y.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 29 May 2021 22:28:44 +0800</pubDate>
+      
+      <guid>http://ecallis-y.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

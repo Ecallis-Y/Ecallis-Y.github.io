@@ -1,23 +1,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mostella</title>
-    <link>https://ecallis-y.github.io/</link>
+    <link>http://ecallis-y.github.io/</link>
     <description>Recent content on Mostella</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 May 2021 22:05:18 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 29 May 2021 22:28:44 +0800</lastBuildDate>
     
-        <atom:link href="https://ecallis-y.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://ecallis-y.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
         <title>学习群用资源列表</title>
-        <link>https://ecallis-y.github.io/resource-list/</link>
+        <link>http://ecallis-y.github.io/resource-list/</link>
         <pubDate>Sat, 29 May 2021 22:31:56 +0800</pubDate>
         
-        <guid>https://ecallis-y.github.io/resource-list/</guid>
-        <description>Mostella https://ecallis-y.github.io/resource-list/ -&lt;p&gt;由群员共同分享整理，陆续添加中……&lt;/p&gt;
+        <guid>http://ecallis-y.github.io/resource-list/</guid>
+        <description>Mostella http://ecallis-y.github.io/resource-list/ -&lt;p&gt;由群员共同分享整理，陆续添加中……&lt;/p&gt;
 &lt;h1 id=&#34;绘画&#34;&gt;绘画&lt;/h1&gt;
 &lt;h2 id=&#34;速写与人体&#34;&gt;速写与人体&lt;/h2&gt;
 &lt;ul&gt;
@@ -46,18 +46,53 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rh411r77q/?spm_id_from=333.788.recommend_more_video.0&#34;&gt;Marco Bucci十分钟教你画面如何更好系列&lt;/a&gt;（实用板绘技巧）&lt;/li&gt;
 &lt;/ul&gt;
-- https://ecallis-y.github.io/resource-list/ - </description>
+- http://ecallis-y.github.io/resource-list/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Hugo&#43;Github建站过程总结</title>
+        <link>http://ecallis-y.github.io/posts/hugo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%E6%80%BB%E7%BB%93/</link>
+        <pubDate>Sat, 29 May 2021 22:28:44 +0800</pubDate>
+        
+        <guid>http://ecallis-y.github.io/posts/hugo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%E6%80%BB%E7%BB%93/</guid>
+        <description>Mostella http://ecallis-y.github.io/posts/hugo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%E6%80%BB%E7%BB%93/ -&lt;p&gt;前段时间从凪冬的博客的友链中摸到了其他人的博客，其中一个用Hexo搭建，另一个用Hugo搭建。我被Hugo那款简洁明了的文字风格、仿佛知识归档地一般的清爽舒畅给吸引了，正好也一直在考虑建设一个从原本的个人网站独立出来的碎碎念哔哔叨保留地，原本的个人网站则打算专门作为Portfolio去改造。因此，我也着手开始学习用Hugo搭建网站。&lt;/p&gt;
+&lt;p&gt;Hugo建站其实算是比较简单的了，生成的也是极为顺畅的静态页面，但是门外汉的我依然花了快一周的时间才搞定，期间一直在各种教程上四处摸索，也遇到了不少教程里压根没出现的问题，好在又从其他教程里找到了解决方案……如是重复，直到昨晚才想到要去搜索视频教程，随后找到的视频教程飞速地解决了所有问题……才终于弄成了这个站点。在这里总结一下我的建站流程，供其他有相似问题的人参考。&lt;/p&gt;
+&lt;h1 id=&#34;视频教程&#34;&gt;视频教程&lt;/h1&gt;
+&lt;p&gt;推荐这个视频：&lt;a href=&#34;https://www.bilibili.com/video/BV1q4411i7gL&#34;&gt;手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo&lt;/a&gt; （这位up的前一个教程是Hexo，据他所说Hugo比Hexo简单多了）&lt;/p&gt;
+&lt;p&gt;其实视频里已经把所有流程讲得差不多了，但我只是在部署时出现了问题，所以只看了最后的部署部分。前面的软件安装部分按照其他教程进行。&lt;/p&gt;
+&lt;h1 id=&#34;软件安装&#34;&gt;软件安装&lt;/h1&gt;
+&lt;p&gt;一共需要安装两个软件：Hugo本体和Git（用于部署至Github）&lt;/p&gt;
+&lt;h2 id=&#34;hugo的安装&#34;&gt;Hugo的安装&lt;/h2&gt;
+&lt;p&gt;建议参考官网的指南进行Hugo的操作（&lt;a href=&#34;https://gohugo.io/getting-started/installing&#34;&gt;Install的部分&lt;/a&gt;）。找到对应的系统后进行操作即可。&lt;/p&gt;
+&lt;p&gt;本人系统为Window 7.0（没错，还在用Win7……打算等下半年换电脑的时候再一起换系统，现在先不折腾了），做法是去下载Hugo的执行文件（请走&lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Github仓库地址&lt;/a&gt;，记得选择对应的系统，另外部分博客主题（Theme）中对博客背景颜色、字体等的调整需要用到Extended版本，如果有这种需要，记得在这一步直接下载Extended版本），然后根据大佬的说法，直接把下好的Hugo.exe丢进&lt;code&gt;系统盘/Windows/System32&lt;/code&gt;就可以了，随后使用cmd进行hugo系列的指令操作即可。&lt;/p&gt;
+&lt;h3 id=&#34;插曲完全不需要的go的安装&#34;&gt;插曲：完全不需要的Go的安装&lt;/h3&gt;
+&lt;p&gt;插播一句，我一开始参考了&lt;a href=&#34;https://www.gohugo.org/&#34;&gt;Hugo中文文档&lt;/a&gt;，搞混了两种安装方式，跑去下载了个Go……其实完全不需要，Hugo是用Go语言写的，但是程序已经编译好了，可以直接使用，除非是源码安装，否则不需要安装Go。&lt;/p&gt;
+&lt;p&gt;不过既然都装了，也将Go的安装过程记下来吧：主要参考了&lt;a href=&#34;http://c.biancheng.net/view/3992.html&#34;&gt;在Windows上安装Go语言开发包&lt;/a&gt;设置了GOPATH，随后按照Hugo中文文档的步骤获取源码并编译，在这个时候出现了A connection attempt failed的失败提示，是由于网络连接超时导致的，多半也是因为被墙了……参考解决&lt;a href=&#34;https://yaw.ee/2269.html&#34;&gt;golang编译提示dial tcp 172.217.160.113:443: connectex: A connection attempt failed&lt;/a&gt;，执行&lt;code&gt;go env -w GOPROXY=https://goproxy.cn&lt;/code&gt;设置代理，解决了这个问题。&lt;/p&gt;
+&lt;h2 id=&#34;git的安装&#34;&gt;Git的安装&lt;/h2&gt;
+&lt;p&gt;从&lt;a href=&#34;http://git-scm.com/downloads&#34;&gt;这里&lt;/a&gt;下载Git。安装好之后，就可以直接在cmd里执行git命令。&lt;/p&gt;
+&lt;h1 id=&#34;建立博客&#34;&gt;建立博客&lt;/h1&gt;
+&lt;p&gt;教程里有各式各样的方法，我的所有操作都在cmd中进行。鉴于很多教程里已经讲得很详细了，具体的建立博客方法我也不再赘述，请参考上文提到的视频、Hugo中文手册以及这个&lt;a href=&#34;https://zhuanlan.zhihu.com/p/150095964&#34;&gt;使用Hugo和GitHub搭建博客&lt;/a&gt;知乎文章进行。&lt;/p&gt;
+&lt;h1 id=&#34;部署至github&#34;&gt;部署至Github&lt;/h1&gt;
+&lt;p&gt;同上，在各教程里描述得非常详细。其中知乎文章里提到了一种使用deploy.sh文件进行自动部署的操作，但我还没学会，输入指令会提示我.不是内部命令，可能是我缺少某种语言的运行环境？好在这自动部署是锦上添花，而不是必要操作，按照视频教程里的过程就能成功发布到Github。&lt;/p&gt;
+&lt;p&gt;Github的基本操作请参考这个视频：&lt;a href=&#34;https://www.bilibili.com/video/BV1yo4y1d7UK&#34;&gt;GitHub 到底怎么用？十分钟学会 GitHub 基础知识&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;值得一提的要点是Github的用户名就是你未来站点的域名，所以记得起得好听一点……本站点的域名就是没有深思熟虑的结果……&lt;/p&gt;
+&lt;p&gt;另外，在部署过程中出现了ssh: connect to host github.com port 22: Connection refused的问题，通过&lt;a href=&#34;https://blog.csdn.net/s740556472/article/details/80318886&#34;&gt;【git 端口拒绝解决方案】ssh: connect to host github.com port 22: Connection refused&lt;/a&gt;解决了（互联网真方便！感谢各位大佬！）。&lt;/p&gt;
+&lt;h1 id=&#34;站点更新&#34;&gt;站点更新&lt;/h1&gt;
+&lt;p&gt;在写了新的文章后，需要再次部署至Github。我参考的是这个教程：&lt;a href=&#34;https://www.bilibili.com/video/BV15f4y1m7xH&#34;&gt;hugo博客在github上的更新操作04&lt;/a&gt;&lt;/p&gt;
+- http://ecallis-y.github.io/posts/hugo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%E6%80%BB%E7%BB%93/ - </description>
         </item>
     
     
     
         <item>
         <title>About</title>
-        <link>https://ecallis-y.github.io/about/</link>
+        <link>http://ecallis-y.github.io/about/</link>
         <pubDate>Tue, 25 May 2021 23:03:08 +0800</pubDate>
         
-        <guid>https://ecallis-y.github.io/about/</guid>
-        <description>Mostella https://ecallis-y.github.io/about/ -&lt;h1 id=&#34;关于本站--about-mostella&#34;&gt;关于本站 | About Mostella&lt;/h1&gt;
+        <guid>http://ecallis-y.github.io/about/</guid>
+        <description>Mostella http://ecallis-y.github.io/about/ -&lt;h1 id=&#34;关于本站--about-mostella&#34;&gt;关于本站 | About Mostella&lt;/h1&gt;
 &lt;h2 id=&#34;本站有什么&#34;&gt;本站有什么？&lt;/h2&gt;
 &lt;p&gt;简而言之，是&lt;a href=&#34;#Me&#34;&gt;Ecallis&lt;/a&gt;个人的图书馆，内容包括但不限于：学习笔记、随笔、读书笔记、展览观后感……&lt;/p&gt;
 &lt;p&gt;由于本站是静态页面，没有设置评论模块（还在纠结要不要加一个），如果你想与我联系，请使用以下途径。发布在其他站点的内容，最终都会归档到本站以及Portfolio站点，如果只是关注内容，直接收藏这两个站点即可，不用跑到这么多平台去关注。&lt;/p&gt;
@@ -103,7 +138,7 @@
 &lt;p&gt;目前的状态：努力工作，供养我的爱好，在业余时间琢磨兴趣。因为爱好只能在闲暇时间琢磨，无法取得成果也是无可奈何的，但足够的努力也能催生成果。把自己逼得太紧有害身心健康，我打算按照自己的步调一步步前进。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;谢谢你来看我！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Per aspera ad astra.&lt;/strong&gt;&lt;/p&gt;
-- https://ecallis-y.github.io/about/ - </description>
+- http://ecallis-y.github.io/about/ - </description>
         </item>
     
     
