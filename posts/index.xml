@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mostella</title>
-    <link>http://ecallis-y.github.io/posts/</link>
+    <link>https://ecallis-y.github.io/posts/</link>
     <description>Recent content in Posts on Mostella</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 May 2021 22:05:18 +0800</lastBuildDate><atom:link href="http://ecallis-y.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 May 2021 22:05:18 +0800</lastBuildDate><atom:link href="https://ecallis-y.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo&#43;Github建站过程总结</title>
-      <link>http://ecallis-y.github.io/posts/hugo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%E6%80%BB%E7%BB%93/</link>
+      <link>https://ecallis-y.github.io/posts/hugo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%E6%80%BB%E7%BB%93/</link>
       <pubDate>Sat, 29 May 2021 22:28:44 +0800</pubDate>
       
-      <guid>http://ecallis-y.github.io/posts/hugo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://ecallis-y.github.io/posts/hugo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%E6%80%BB%E7%BB%93/</guid>
       <description>前段时间从凪冬的博客的友链中摸到了其他人的博客，其中一个用Hexo搭建，另一个用Hugo搭建。我被Hugo那款简洁明了的文字风格、仿佛知识归档地一般的清爽舒畅给吸引了，正好也一直在考虑建设一个从原本的个人网站独立出来的碎碎念哔哔叨保留地，原本的个人网站则打算专门作为Portfolio去改造。因此，我也着手开始学习用Hugo搭建网站。
 Hugo建站其实算是比较简单的了，生成的也是极为顺畅的静态页面，但是门外汉的我依然花了快一周的时间才搞定，期间一直在各种教程上四处摸索，也遇到了不少教程里压根没出现的问题，好在又从其他教程里找到了解决方案……如是重复，直到昨晚才想到要去搜索视频教程，随后找到的视频教程飞速地解决了所有问题……才终于弄成了这个站点。在这里总结一下我的建站流程，供其他有相似问题的人参考。
 视频教程 推荐这个视频：手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo （这位up的前一个教程是Hexo，据他所说Hugo比Hexo简单多了）
@@ -28,7 +28,8 @@ Git的安装 从这里下载Git。安装好之后，就可以直接在cmd里执�
 Github的基本操作请参考这个视频：GitHub 到底怎么用？十分钟学会 GitHub 基础知识
 值得一提的要点是Github的用户名就是你未来站点的域名，所以记得起得好听一点……本站点的域名就是没有深思熟虑的结果……
 另外，在部署过程中出现了ssh: connect to host github.com port 22: Connection refused的问题，通过【git 端口拒绝解决方案】ssh: connect to host github.com port 22: Connection refused解决了（互联网真方便！感谢各位大佬！）。
-站点更新 在写了新的文章后，需要再次部署至Github。我参考的是这个教程：hugo博客在github上的更新操作04</description>
+站点更新 在写了新的文章后，需要再次部署至Github。我参考的是这个教程：每次更新hugo博客的操作
+需要注意的是执行hugo命令时，一定要输入&amp;ndash;theme，否则再次推送会导致不显示主题（踩过坑了……）</description>
     </item>
     
   </channel>
