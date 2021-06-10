@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Posts</title>
+<title>Hugo&#43;Github建站过程总结</title>
 
 
 
@@ -10,7 +10,7 @@
 <meta name="google-site-verification" content="">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 <meta content="telephone=no" name="format-detection">
-<meta name="description" content="">
+<meta name="description" content="关于我走过的那些弯弯绕绕">
 <meta name="renderer" content="webkit">
 <meta name="theme-color" content="#ffffff">
 
@@ -51,6 +51,10 @@
 
 
 
+
+  
+    <script src="/js/toc.js"></script>
+  
 
 
 
@@ -131,6 +135,206 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%a7%86%e9%a2%91%e6%95%99%e7%a8%8b" onclick="onNavClick(`#视频教程-nav`)" id="视频教程-nav">
+									视频教程
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%bd%af%e4%bb%b6%e5%ae%89%e8%a3%85" onclick="onNavClick(`#软件安装-nav`)" id="软件安装-nav">
+									软件安装
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#hugo%e7%9a%84%e5%ae%89%e8%a3%85" onclick="onNavClick(`#hugo的安装-nav`)" id="hugo的安装-nav">
+									Hugo的安装
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e6%8f%92%e6%9b%b2%e5%ae%8c%e5%85%a8%e4%b8%8d%e9%9c%80%e8%a6%81%e7%9a%84go%e7%9a%84%e5%ae%89%e8%a3%85" onclick="onNavClick(`#插曲完全不需要的go的安装-nav`)" id="插曲完全不需要的go的安装-nav">
+									插曲：完全不需要的Go的安装
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#git%e7%9a%84%e5%ae%89%e8%a3%85" onclick="onNavClick(`#git的安装-nav`)" id="git的安装-nav">
+									Git的安装
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e5%bb%ba%e7%ab%8b%e5%8d%9a%e5%ae%a2" onclick="onNavClick(`#建立博客-nav`)" id="建立博客-nav">
+									建立博客
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e9%83%a8%e7%bd%b2%e8%87%b3github" onclick="onNavClick(`#部署至github-nav`)" id="部署至github-nav">
+									部署至Github
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ab%99%e7%82%b9%e6%9b%b4%e6%96%b0" onclick="onNavClick(`#站点更新-nav`)" id="站点更新-nav">
+									站点更新
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%ae%8c%e6%88%90" onclick="onNavClick(`#完成-nav`)" id="完成-nav">
+									完成！
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -146,8 +350,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 brightness_7
             </i>
         </a>
-        
-        
         
         
     </div>
@@ -190,6 +392,206 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%a7%86%e9%a2%91%e6%95%99%e7%a8%8b" onclick="onNavClick(`#视频教程-nav`)" id="视频教程-nav">
+									视频教程
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%bd%af%e4%bb%b6%e5%ae%89%e8%a3%85" onclick="onNavClick(`#软件安装-nav`)" id="软件安装-nav">
+									软件安装
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#hugo%e7%9a%84%e5%ae%89%e8%a3%85" onclick="onNavClick(`#hugo的安装-nav`)" id="hugo的安装-nav">
+									Hugo的安装
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e6%8f%92%e6%9b%b2%e5%ae%8c%e5%85%a8%e4%b8%8d%e9%9c%80%e8%a6%81%e7%9a%84go%e7%9a%84%e5%ae%89%e8%a3%85" onclick="onNavClick(`#插曲完全不需要的go的安装-nav`)" id="插曲完全不需要的go的安装-nav">
+									插曲：完全不需要的Go的安装
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#git%e7%9a%84%e5%ae%89%e8%a3%85" onclick="onNavClick(`#git的安装-nav`)" id="git的安装-nav">
+									Git的安装
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e5%bb%ba%e7%ab%8b%e5%8d%9a%e5%ae%a2" onclick="onNavClick(`#建立博客-nav`)" id="建立博客-nav">
+									建立博客
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e9%83%a8%e7%bd%b2%e8%87%b3github" onclick="onNavClick(`#部署至github-nav`)" id="部署至github-nav">
+									部署至Github
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ab%99%e7%82%b9%e6%9b%b4%e6%96%b0" onclick="onNavClick(`#站点更新-nav`)" id="站点更新-nav">
+									站点更新
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%ae%8c%e6%88%90" onclick="onNavClick(`#完成-nav`)" id="完成-nav">
+									完成！
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -231,94 +633,123 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        
-            <a class="a-block">
-                <div class="post-item-wrapper post-item-wrapper-no-hover">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title post-item-title-small year">
-                                2021
-                            </div>
-                        </div>
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    Hugo&#43;Github建站过程总结
+                    
+                    <div class="post-subtitle">
+                        关于我走过的那些弯弯绕绕
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-05-29 22:28
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">学习笔记</a>
+                                &nbsp;
+                        
+
+                        
+                        
+                            <i class="material-icons" style="">schedule</i>
+                            
+
+                            
+                            
+
+                            
+                            8 min
+                            
+                            27 s.
+                        
                     </div>
                 </div>
-            </a>
+            </div>
             
-            <a href="/posts/books/2021-06-05-seven_keys_to_modern_art/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                这是艺术吗？现代艺术的七个关键
-                            </div>
-                            <div class="post-item-meta">
-    2021-06-06
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:10px">schedule</i>
-    
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>前段时间从凪冬的博客的友链中摸到了其他人的博客，其中一个用Hexo搭建，另一个用Hugo搭建。我被Hugo那款简洁明了的文字风格、仿佛知识归档地一般的清爽舒畅给吸引了，正好也一直在考虑建设一个从原本的个人网站独立出来的碎碎念哔哔叨保留地，原本的个人网站则打算专门作为Portfolio去改造。因此，我也着手开始学习用Hugo搭建网站。</p>
+<p>Hugo建站其实算是比较简单的了，生成的也是极为顺畅的静态页面，但是门外汉的我依然花了快一周的时间才搞定，期间一直在各种教程上四处摸索，也遇到了不少教程里压根没出现的问题，好在又从其他教程里找到了解决方案……如是重复，直到昨晚才想到要去搜索视频教程，随后找到的视频教程飞速地解决了所有问题……才终于弄成了这个站点。在这里总结一下我的建站流程，供其他有相似问题的人参考。</p>
+<h1 id="视频教程">视频教程</h1>
+<p>推荐这个视频：<a href="https://www.bilibili.com/video/BV1q4411i7gL">手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo</a> （这位up的前一个教程是Hexo，据他所说Hugo比Hexo简单多了）</p>
+<p>其实视频里已经把所有流程讲得差不多了，但我只是在部署时出现了问题，所以只看了最后的部署部分。前面的软件安装部分按照其他教程进行。</p>
+<h1 id="软件安装">软件安装</h1>
+<p>一共需要安装两个软件：Hugo本体和Git（用于部署至Github）</p>
+<h2 id="hugo的安装">Hugo的安装</h2>
+<p>建议参考官网的指南进行Hugo的操作（<a href="https://gohugo.io/getting-started/installing">Install的部分</a>）。找到对应的系统后进行操作即可。</p>
+<p>本人系统为Window 7.0（没错，还在用Win7……打算等下半年换电脑的时候再一起换系统，现在先不折腾了），做法是去下载Hugo的执行文件（请走<a href="https://github.com/spf13/hugo/releases">Github仓库地址</a>，记得选择对应的系统，另外部分博客主题（Theme）中对博客背景颜色、字体等的调整需要用到Extended版本，如果有这种需要，记得在这一步直接下载Extended版本），然后根据大佬的说法，直接把下好的Hugo.exe丢进<code>系统盘/Windows/System32</code>就可以了，随后使用cmd进行hugo系列的指令操作即可。</p>
+<h3 id="插曲完全不需要的go的安装">插曲：完全不需要的Go的安装</h3>
+<p>插播一句，我一开始参考了<a href="https://www.gohugo.org/">Hugo中文文档</a>，搞混了两种安装方式，跑去下载了个Go……其实完全不需要，Hugo是用Go语言写的，但是程序已经编译好了，可以直接使用，除非是源码安装，否则不需要安装Go。</p>
+<p>不过既然都装了，也将Go的安装过程记下来吧：主要参考了<a href="http://c.biancheng.net/view/3992.html">在Windows上安装Go语言开发包</a>设置了GOPATH，随后按照Hugo中文文档的步骤获取源码并编译，在这个时候出现了A connection attempt failed的失败提示，是由于网络连接超时导致的，多半也是因为被墙了……参考解决<a href="https://yaw.ee/2269.html">golang编译提示dial tcp 172.217.160.113:443: connectex: A connection attempt failed</a>，执行<code>go env -w GOPROXY=https://goproxy.cn</code>设置代理，解决了这个问题。</p>
+<h2 id="git的安装">Git的安装</h2>
+<p>从<a href="http://git-scm.com/downloads">这里</a>下载Git。安装好之后，就可以直接在cmd里执行git命令。</p>
+<h1 id="建立博客">建立博客</h1>
+<p>教程里有各式各样的方法，我的所有操作都在cmd中进行。鉴于很多教程里已经讲得很详细了，具体的建立博客方法我也不再赘述，请参考上文提到的视频、Hugo中文手册以及这个<a href="https://zhuanlan.zhihu.com/p/150095964">使用Hugo和GitHub搭建博客</a>知乎文章进行。</p>
+<h1 id="部署至github">部署至Github</h1>
+<p>同上，在各教程里描述得非常详细。其中知乎文章里提到了一种使用deploy.sh文件进行自动部署的操作，但我还没学会，输入指令会提示我.不是内部命令，可能是我缺少某种语言的运行环境？好在这自动部署是锦上添花，而不是必要操作，按照视频教程里的过程就能成功发布到Github。</p>
+<p>Github的基本操作请参考这个视频：<a href="https://www.bilibili.com/video/BV1yo4y1d7UK">GitHub 到底怎么用？十分钟学会 GitHub 基础知识</a></p>
+<p>值得一提的要点是Github的用户名就是你未来站点的域名，所以记得起得好听一点……本站点的域名就是没有深思熟虑的结果……</p>
+<p>另外，在部署过程中出现了ssh: connect to host github.com port 22: Connection refused的问题，通过<a href="https://blog.csdn.net/s740556472/article/details/80318886">【git 端口拒绝解决方案】ssh: connect to host github.com port 22: Connection refused</a>解决了（互联网真方便！感谢各位大佬！）。</p>
+<h1 id="站点更新">站点更新</h1>
+<p>在写了新的文章后，需要再次部署至Github。我参考的是这个教程：<a href="https://blog.csdn.net/m0_46261993/article/details/105043207">每次更新hugo博客的操作</a></p>
+<p>需要注意的是执行hugo命令时，一定要输入&ndash;theme，否则再次推送会导致不显示主题（踩过坑了……）</p>
+<h1 id="完成">完成！</h1>
+<p>恭喜你，到了这一步就算完成了站点的搭建与更新了。就这个站点而言，目前我不太满意的是Archive列表没有搭完，以及About和Archive这样的独立页面会在首页的文章列表里显示。不过我决定暂时放过自己，等文章多起来了，这两个页面就会被挤到最后去吧……晚些时候再来修改好了……</p>
 
-    
-    
-
-    
-    39 min
-    
-    57 s
-    
-    
-    &emsp;
-    
-</div>
-
-                        </div>
-                    </div>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2021-05-29</p>
+                    
                 </div>
-            </a>
+            </div>
             
-            <a href="/posts/2021-05-30-hugo_github_summerize/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Hugo&#43;Github建站过程总结
-                            </div>
-                            <div class="post-item-meta">
-    2021-05-29
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:10px">schedule</i>
-    
-
-    
-    
-
-    
-    8 min
-    
-    27 s
-    
-    
-    &emsp;
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
             
-        
-    </div>
-</div>
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://ecallis-y.github.io/resource-list/">
+			Next<br>学习群用资源列表
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://ecallis-y.github.io/about/">
+			Previous<br>About
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
 
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
@@ -585,6 +1016,9 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },

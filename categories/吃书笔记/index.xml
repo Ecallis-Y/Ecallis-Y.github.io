@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Mostella</title>
-    <link>https://ecallis-y.github.io/posts/</link>
-    <description>Recent content in Posts on Mostella</description>
+    <title>吃书笔记 on Mostella</title>
+    <link>https://ecallis-y.github.io/categories/%E5%90%83%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 吃书笔记 on Mostella</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 May 2021 22:05:18 +0800</lastBuildDate><atom:link href="https://ecallis-y.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Jun 2021 00:13:21 +0800</lastBuildDate><atom:link href="https://ecallis-y.github.io/categories/%E5%90%83%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>这是艺术吗？现代艺术的七个关键</title>
       <link>https://ecallis-y.github.io/posts/books/2021-06-05-seven_keys_to_modern_art/</link>
@@ -28,32 +28,6 @@
 ……
 像大多数美国人一样，霍普是狂热的电影爱好者，所以这幅作品是基于个人经验创作的。这意味着霍普的作品关注的、其中描绘的内容与日常生活中发生的事件之间的联系可能比本书中任何其他艺术家都更为密切。霍普宣称：“伟大的艺术是艺术家内心生活的外在表达，这种内心生活将形成他个人的世界幻象。”对于霍普来说，这种“个人幻象”通常会包含一到两个孤独的人物，正置身于空旷或不知名的空间内，再或者，在他描绘的建筑物和街道上弥漫着一种不可思议的气息，暗示着人的存在。但他非常不愿意分析这个“幻象”的来源，并表示这项工作最好留给评论家。
  弗朗西斯·培根 Francis Bacon, 1949. Head VI, 93.2 × 76.</description>
-    </item>
-    
-    <item>
-      <title>Hugo&#43;Github建站过程总结</title>
-      <link>https://ecallis-y.github.io/posts/2021-05-30-hugo_github_summerize/</link>
-      <pubDate>Sat, 29 May 2021 22:28:44 +0800</pubDate>
-      
-      <guid>https://ecallis-y.github.io/posts/2021-05-30-hugo_github_summerize/</guid>
-      <description>前段时间从凪冬的博客的友链中摸到了其他人的博客，其中一个用Hexo搭建，另一个用Hugo搭建。我被Hugo那款简洁明了的文字风格、仿佛知识归档地一般的清爽舒畅给吸引了，正好也一直在考虑建设一个从原本的个人网站独立出来的碎碎念哔哔叨保留地，原本的个人网站则打算专门作为Portfolio去改造。因此，我也着手开始学习用Hugo搭建网站。
-Hugo建站其实算是比较简单的了，生成的也是极为顺畅的静态页面，但是门外汉的我依然花了快一周的时间才搞定，期间一直在各种教程上四处摸索，也遇到了不少教程里压根没出现的问题，好在又从其他教程里找到了解决方案……如是重复，直到昨晚才想到要去搜索视频教程，随后找到的视频教程飞速地解决了所有问题……才终于弄成了这个站点。在这里总结一下我的建站流程，供其他有相似问题的人参考。
-视频教程 推荐这个视频：手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo （这位up的前一个教程是Hexo，据他所说Hugo比Hexo简单多了）
-其实视频里已经把所有流程讲得差不多了，但我只是在部署时出现了问题，所以只看了最后的部署部分。前面的软件安装部分按照其他教程进行。
-软件安装 一共需要安装两个软件：Hugo本体和Git（用于部署至Github）
-Hugo的安装 建议参考官网的指南进行Hugo的操作（Install的部分）。找到对应的系统后进行操作即可。
-本人系统为Window 7.0（没错，还在用Win7……打算等下半年换电脑的时候再一起换系统，现在先不折腾了），做法是去下载Hugo的执行文件（请走Github仓库地址，记得选择对应的系统，另外部分博客主题（Theme）中对博客背景颜色、字体等的调整需要用到Extended版本，如果有这种需要，记得在这一步直接下载Extended版本），然后根据大佬的说法，直接把下好的Hugo.exe丢进系统盘/Windows/System32就可以了，随后使用cmd进行hugo系列的指令操作即可。
-插曲：完全不需要的Go的安装 插播一句，我一开始参考了Hugo中文文档，搞混了两种安装方式，跑去下载了个Go……其实完全不需要，Hugo是用Go语言写的，但是程序已经编译好了，可以直接使用，除非是源码安装，否则不需要安装Go。
-不过既然都装了，也将Go的安装过程记下来吧：主要参考了在Windows上安装Go语言开发包设置了GOPATH，随后按照Hugo中文文档的步骤获取源码并编译，在这个时候出现了A connection attempt failed的失败提示，是由于网络连接超时导致的，多半也是因为被墙了……参考解决golang编译提示dial tcp 172.217.160.113:443: connectex: A connection attempt failed，执行go env -w GOPROXY=https://goproxy.cn设置代理，解决了这个问题。
-Git的安装 从这里下载Git。安装好之后，就可以直接在cmd里执行git命令。
-建立博客 教程里有各式各样的方法，我的所有操作都在cmd中进行。鉴于很多教程里已经讲得很详细了，具体的建立博客方法我也不再赘述，请参考上文提到的视频、Hugo中文手册以及这个使用Hugo和GitHub搭建博客知乎文章进行。
-部署至Github 同上，在各教程里描述得非常详细。其中知乎文章里提到了一种使用deploy.sh文件进行自动部署的操作，但我还没学会，输入指令会提示我.不是内部命令，可能是我缺少某种语言的运行环境？好在这自动部署是锦上添花，而不是必要操作，按照视频教程里的过程就能成功发布到Github。
-Github的基本操作请参考这个视频：GitHub 到底怎么用？十分钟学会 GitHub 基础知识
-值得一提的要点是Github的用户名就是你未来站点的域名，所以记得起得好听一点……本站点的域名就是没有深思熟虑的结果……
-另外，在部署过程中出现了ssh: connect to host github.com port 22: Connection refused的问题，通过【git 端口拒绝解决方案】ssh: connect to host github.com port 22: Connection refused解决了（互联网真方便！感谢各位大佬！）。
-站点更新 在写了新的文章后，需要再次部署至Github。我参考的是这个教程：每次更新hugo博客的操作
-需要注意的是执行hugo命令时，一定要输入&amp;ndash;theme，否则再次推送会导致不显示主题（踩过坑了……）
-完成！ 恭喜你，到了这一步就算完成了站点的搭建与更新了。就这个站点而言，目前我不太满意的是Archive列表没有搭完，以及About和Archive这样的独立页面会在首页的文章列表里显示。不过我决定暂时放过自己，等文章多起来了，这两个页面就会被挤到最后去吧……晚些时候再来修改好了……</description>
     </item>
     
   </channel>
